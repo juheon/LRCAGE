@@ -1,0 +1,17 @@
+#what should be included?
+
+
+##fastq to bam files
+##bam to peaks
+##bam to gtf
+##filter gtf by peaks
+##ORF prediction
+##Classifictation of ORFs
+##Antigen prediction
+##Find the position of antigen
+
+
+
+
+
+
