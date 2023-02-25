@@ -1,14 +1,21 @@
 #what should be included?
 
 
-##fastq to bam files
-##bam to peaks
-##bam to gtf
-##filter gtf by peaks
-##ORF prediction
-##Classifictation of ORFs
-##Antigen prediction
-##Find the position of antigen
+#1. fastq to bam 
+
+#Transcript profiling
+#2. bam to peaks
+#3. bam to gtf
+#4. Filter gtf by peaks
+
+#Proteome profiling
+#5. ORF prediction
+#6. Classification of ORFs
+
+#Antigen profiling
+#7. Antigen prediction
+#8. Find the position of antigesn
+
 
 
 
