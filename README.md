@@ -1,7 +1,5 @@
 # LRCAGE
-Analysis pipeline for long-read CAGE data
-usage: LRCAGE [-h] [-ver] {callpeak,filtertx,buildprot} ...
-
+This repository contains scripts to call peaks, to retain a list of confident transcripts, and to build a proteome database for immunopeptidome analysis.
 
 ## callpeak
 to call peak
