@@ -76,5 +76,5 @@ git clone https://github.com/juheon/LRCAGE.git
 docker pull jhmaeng/lrcage
 docker images ; See if you can find jhmaeng/lrcage
 ```
-3. Modify and run “run_with_docker.sh” script in <your installation directory>
+3. Modify and run “run_with_docker.sh” script in "<your installation directory>"
    
