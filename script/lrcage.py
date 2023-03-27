@@ -1,11 +1,11 @@
-#!/opt/apps/python3/bin/python3
+#!/root/miniconda3/bin/python3
 
 import argparse
 
 
 #Load src files
 import os 
-src_dir= os.path.dirname(os.path.realpath(__file__))+"/src"
+src_dir= os.path.dirname(os.path.realpath(__file__))
 
 import sys
 sys.path.insert(0, src_dir);
@@ -39,7 +39,8 @@ if __name__ == "__main__":
 	parser_1 = subparsers.add_parser('callpeak', help='to call peak')
 	parser_4 =subparsers.add_parser('filtertx', help='to retain a list of confident transcripts');
 	parser_3 =subparsers.add_parser('buildprot', help='to create a proteome database');
-	parser_2 = subparsers.add_parser('annotpep', help='to annotate peptide')	
+	#parser_2 = subparsers.add_parser('annotpep', help='to annotate peptide')	
+
 
 
 	#peak calling
@@ -59,11 +60,11 @@ if __name__ == "__main__":
 	
 
 	#filter peptide
-	parser_2.add_argument('--peptide', help='input peptide.txt file from MaxQuant')
-	parser_2.add_argument('--ref', help='reference proteome to define canonical peptides')
-	parser_2.add_argument('--protinfo', help="protain class information");
-	parser_2.add_argument('--opeptide', help="output file name" )
-	parser_2.set_defaults(func=annotpep)
+	#parser_2.add_argument('--peptide', help='input peptide.txt file from MaxQuant')
+	#parser_2.add_argument('--ref', help='reference proteome to define canonical peptides')
+	#parser_2.add_argument('--protinfo', help="protain class information");
+	#parser_2.add_argument('--opeptide', help="output file name" )
+	#parser_2.set_defaults(func=annotpep)
 
 
 	#proteome asssembly
