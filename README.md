@@ -1,4 +1,4 @@
-# LRCAGE
+# LRCAGE (long-read CAGE)
 This repository contains scripts to call peaks, to retain a list of confident transcripts, and to build a proteome database for immunopeptidome analysis.
 
 ## callpeak
