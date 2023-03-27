@@ -1,0 +1,2 @@
+input_bam	cell	treatment	replicate
+nano.test.chr1.bam	H1299	DMSO	R1
